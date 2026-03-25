@@ -1,0 +1,58 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 3% 8%;
+}
+
+.flexContainerTop{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    gap: 5%;
+    padding: 3% 8%;
+}
+
+.flex2Col{
+    width: 50%;
+}
+
+.simpleRowFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4em;
+}
+
+.button{
+    background-color: aqua;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.blue{
+    background-color: darkblue;
+    color: white;
+}
+
+i{
+    color: goldenrod;
+}
